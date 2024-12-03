@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://cx8jlsfrpk7h4"]
 
 [ext_resource type="PackedScene" uid="uid://ce828qs48cc2j" path="res://scenes/world/world.tscn" id="1_2mp7s"]
-[ext_resource type="Script" path="res://scenes/game.gd" id="1_uu6mj"]
+[ext_resource type="Script" uid="uid://lign4wfsiu6m" path="res://scenes/game.gd" id="1_uu6mj"]
 [ext_resource type="PackedScene" uid="uid://dts7spmsrfa7u" path="res://scenes/entities/tank/tank.tscn" id="2_21h7o"]
 [ext_resource type="PackedScene" uid="uid://0ck0mnhnjt8m" path="res://scenes/ui/ui.tscn" id="4_uclr4"]
 [ext_resource type="AudioStream" uid="uid://jt1uonaoisg" path="res://assets/audio/music/Rolemusic - The White Frame.mp3" id="5_c1nwv"]
-[ext_resource type="Script" path="res://scenes/ui/camera.gd" id="6_khat2"]
+[ext_resource type="Script" uid="uid://dqo6v3mposw8v" path="res://scenes/ui/camera.gd" id="6_khat2"]
 
 [node name="game" type="Node2D" node_paths=PackedStringArray("ui")]
 script = ExtResource("1_uu6mj")
